@@ -8,3 +8,61 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+html{
+    background-color: #540B51;
+    width:100%;
+}
+
+ .nav{
+    width:100%;
+ }
+
+.nav-div {
+        height: 13vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-flow: wrap row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid grey;
+        width: 100%;
+      
+  }
+
+  
+  .flex-item-1{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .flex-item-2{
+   
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #button-search {
+    background-color: #540B51;
+    border: none;
+    padding: 8px 16px;
+  }
+  
+  #button-menu {
+    background-color: #540B51;
+    border: none;
+    padding: 8px 16px;
+  }
+
+  #slack-logo {
+    padding: 8px 16px;
+  }
+   
+  
