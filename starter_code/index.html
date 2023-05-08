@@ -87,7 +87,7 @@
           </p>
          </div>
         <div id="button-email">
-          <button>Sign up with email</button>
+          <button>Sign up</button>
         </div>
           <div id="button-google">
             <button>
@@ -107,22 +107,22 @@
       <section class="section-2">
        <p id="section-2-text">TRUSTED BY COMPANIES ALL OVER THE WORLD</p>
 
-        <div>
-          <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
-          <img src="./images/logo-nasa.png" alt="NASA logo" />
-          <img src="./images/logo-uber.png" alt="Uber logo" />
-          <img src="./images/logo-target.png" alt="Target logo" />
-          <img src="./images/logo-nyt.png" alt="New York Times logo" />
-          <img src="./images/logo-spotify.png" alt="Spotify logo" />
+        <div class="logos">
+          <img src="./images/logo-airbnb.png" alt="Airbnb logo" class="logos-size" />
+          <img src="./images/logo-nasa.png" alt="NASA logo"  class="logos-size"/>
+          <img src="./images/logo-uber.png" alt="Uber logo"  class="logo-uber"/>
+          <img src="./images/logo-target.png" alt="Target logo"  class="logos-size" />
+          <img src="./images/logo-nyt.png" alt="New York Times logo"  class="logos-size" />
+          <img src="./images/logo-spotify.png" alt="Spotify logo"  class="logos-size" />
         </div>
       </section>
 
-      <section>
+      <section class="section-3">
         <div>
-          <img src="./images/connectedness-mobile.png" alt="connectedness" />
+          <img src="./images/connectedness-mobile.png" alt="connectedness" class="image-mobile" />
         </div>
 
-        <div>
+        <div class="section3-div">
           <h2>Bring your team together</h2>
 
           <p>
@@ -138,7 +138,12 @@
         </div>
       </section>
 
-      <section>
+      <section class="section-4">
+        
+
+        <div>
+          <img src="./images/flexibility-mobile.png" alt="flexibility" class="image-mobile"/>
+        </div>
         <div>
           <h2>Choose how you want to work</h2>
           <p>
@@ -151,15 +156,11 @@
             <span>Learn more about flexible communication</span>
           </a>
         </div>
-
-        <div>
-          <img src="./images/flexibility-mobile.png" alt="flexibility" />
-        </div>
       </section>
 
-      <section>
+      <section class="section-5">
         <div>
-          <img src="./images/speed-mobile.png" alt="speed" />
+          <img src="./images/speed-mobile.png" alt="speed" class="image-mobile" />
         </div>
 
         <div>
@@ -176,14 +177,14 @@
         </div>
       </section>
 
-      <section>
+      <section class="section-6">
         <h3>Teams large and small rely on Slack</h3>
         <p>
           Slack securely scales up to support collaboration at the world’s
           biggest companies.
         </p>
 
-        <div>
+        <div id="section6-buttons">
           <button>Meet Slack for enterprise</button>
           <button>Talk to sales</button>
         </div>
@@ -215,7 +216,7 @@
         </ul>
       </section>
 
-      <section>
+      <section class="section-7">
         <h3>Welcome to your new digital HQ</h3>
 
         <button>Try for free</button>
@@ -223,35 +224,39 @@
       </section>
     </main>
 
-    <footer>
-      <img src="./images/iso-slack.png" alt="Slack logo" />
-      <div>
+    <footer >
+      <img src="./images/iso-slack.png" alt="Slack logo" id="image-slack" />
+      <div id="flex-container">
+        <div id="flex-container-1">
         <ul>
-          <li>WHY SLACK?</li>
+          <li class="titles-footer">WHY SLACK?</li>
           <li>Slack vs. Email</li>
           <li>Channels</li>
           <li>Engagement</li>
           <li>Scale</li>
           <li>Watch the Demo</li>
         </ul>
-
+      </div>
+        <div id="flex-container-2">
         <ul>
-          <li>PRODUCT</li>
+          <li class="titles-footer">PRODUCT</li>
           <li>Features</li>
           <li>Integrations</li>
           <li>Enterprise</li>
           <li>Solutions</li>
           <li>Releases</li>
         </ul>
-
+      </div>
+        <div id="flex-container-3">
         <ul>
-          <li>PRICING</li>
+          <li class="titles-footer">PRICING</li>
           <li>Plans</li>
           <li>Paid vs. Free</li>
         </ul>
-
+      </div>
+        <div id="flex-container-1">
         <ul>
-          <li>COMPANY</li>
+          <li class="titles-footer">COMPANY</li>
           <li>About Us</li>
           <li>Leadership</li>
           <li>Investor Relations</li>
@@ -260,20 +265,31 @@
           <li>Careers</li>
         </ul>
       </div>
+    </div>
 
-      <ul>
-        <li>Status</li>
+      <ul id="footer-2ndlist">
+        <li >Status</li>
         <li>Privacy</li>
         <li>Terms</li>
         <li>Cookie Preferences</li>
         <li>Contact Us</li>
-        <li>Change Region</li>
-        <li>Download Slack</li>
+        <div class="footer-icons1">
+          <div><img src="./images/icon-region.png" alt="">
+          </div>
+          <div><li>Change Region</li>
+          </div>
+
+        <div class="footer-icons2">
+          <div><img src="./images/icon-download.png" alt="">
+          </div>
+          <div><li>Download Slack</li></div>
+      </div>
       </ul>
 
       <hr />
-
-      <ul>
+<div class="class-footer">
+  
+      <ul id="logos-footer">
         <li>
           <i class="fab fa-twitter"></i>
         </li>
@@ -287,7 +303,7 @@
           <i class="fab fa-linkedin"></i>
         </li>
       </ul>
-
+    </div>
       <div>
         <small>
           &copy; 2022 Slack Technologies, LLC, a Salesforce company. All rights
