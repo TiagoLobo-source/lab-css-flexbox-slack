@@ -127,7 +127,6 @@ html {
   padding: 2%;
   display: block;
   border-radius: 1px;
-  
 }
 
 #text-google {
@@ -139,7 +138,6 @@ html {
   justify-content: center;
   font-weight: bolder;
   width: 86%;
- 
 }
 #button-email {
   width: 100%;
@@ -179,32 +177,30 @@ main {
   font-weight: bolder;
 }
 
-.logo-uber{
-    height: 25px;
+.logo-uber {
+  height: 25px;
 }
 
-.logos-size{
-    height: 35px;
+.logos-size {
+  height: 35px;
 }
 
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 
-.logos{
-    
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-   
-    text-align: center;
-    flex-flow: wrap row;
+  text-align: center;
+  flex-flow: wrap row;
   justify-content: space-around;
 }
 
-.logos img{
-    margin-bottom: 40px;
+.logos img {
+  margin-bottom: 40px;
 }
 
-.image-mobile{
-    width:94%
+.image-mobile {
+  width: 94%;
 }
 
 /*.section3 h2, p,span {
@@ -278,71 +274,62 @@ hr {
   border-style: none;
 }
 
-.footer-icons1,.footer-icons2 {
+.footer-icons1,
+.footer-icons2 {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
-  
+}
 
-  
+.footer-icons2 li {
+  margin-bottom: 0px !important;
+}
 
-  }
-  
-
-  .footer-icons1 img,.footer-icons2 img{
+.footer-icons1 img,
+.footer-icons2 img {
   margin-right: 5px;
-  
 }
 
 .footer-icons li {
   text-transform: lowercase;
   margin-bottom: 10px;
- 
-  
 }
 
-.footer-icons2{
-
-    color: #64A3C6;
+.footer-icons2 {
+  color: #64a3c6;
 }
 .footer-icons li::first-letter {
   text-transform: uppercase;
 }
 
-#footer-2ndlist li{
-    margin-bottom: 20px;
-    font-size: 10px;
-    font-weight: bold;
+#footer-2ndlist li {
+  margin-bottom: 20px;
+  font-size: 10px;
+  font-weight: bold;
 }
 
+.class-footer {
+  margin-bottom: 10px;
+}
+
+#footer-2ndlist {
+  margin-bottom: 0px;
+}
 .section-2 {
-    
-    padding: 10px;
+  padding: 10px;
 }
 
-.section-6{
+.section-6 {
   text-align: center;
-  
-    
 }
 
-.section-6 button{
-    display: block;
-    
-    
-      
-  }
-  #section6-buttons{
-    justify-content: center;
-    width: 100%;
-   
-  }
+#section6-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  #section6-buttons button{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    
-   
-  }
+small {
+  font-size: xx-small;
+}
