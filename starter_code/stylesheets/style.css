@@ -25,6 +25,10 @@ html {
   width: 100%;
 }
 
+h2 {
+  font-size: 24px;
+}
+
 .nav {
   width: 100%;
 }
@@ -157,7 +161,7 @@ html {
 }
 
 #image-product {
-  width: 630px;
+  width: 595px;
   height: auto;
 }
 
@@ -172,9 +176,9 @@ main {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  font-size: 12px;
-  padding-top: 50px;
-  font-weight: bolder;
+  font-size: 13px;
+  padding: 20px 0px 20px 0px;
+  font-weight: 700;
 }
 
 .logo-uber {
@@ -200,28 +204,44 @@ main {
 }
 
 .image-mobile {
-  width: 94%;
+  max-width: 94%;
+  height: auto;
+}
+.image-mobile-2 {
+  max-width: 94%;
+  height: auto;
+  float: right;
+}
+.section3-div {
+  height: 250px;
+}
+.section4-div {
+  height: 250px;
+}
+.section5-div {
+  height: 250px;
+}
+.section3-div h2,
+.section3-div p,
+.section4-div h2,
+.section4-div p,
+.section5-div h2,
+.section5-div p {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-/*.section3 h2, p,span {
-    padding: 20px;
+.section3-div span,
+.section4-div span,
+.section5-div span {
+  padding-left: 20px;
+
+  font-weight: bold;
 }
 
-.section4 h2, p,span{
-    padding: 20px;
+a {
+  text-decoration: none;
 }
-
-.section5 h2, p,span{
-    padding: 20px;
-}
-
-
-.section6 h2, p,span{
-    padding: 20px;
-}
-.section7 h2, p,span{
-    padding: 20px;
-}*/
 
 footer {
   background-color: white;
@@ -230,18 +250,19 @@ footer {
 }
 
 #flex-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   grid-gap: 5px;
   padding: 10px;
   font-size: 10px;
   border-bottom: 0.5px solid grey;
+  justify-content: space-between;
 }
 #flex-container li {
   margin-bottom: 30px;
   list-style-type: none;
   vertical-align: top;
   width: 100%;
+  color: #454245;
 }
 
 ul {
@@ -274,19 +295,17 @@ hr {
   border-style: none;
 }
 
-.footer-icons1,
-.footer-icons2 {
-  display: flex;
-  flex-wrap: wrap;
-  width: 80%;
+#inline-icon1 {
+  display: inline;
+  margin-bottom: 20px;
 }
-
-.footer-icons2 li {
+#inline-icon2 li {
   margin-bottom: 0px !important;
+  align-items: center;
 }
 
-.footer-icons1 img,
-.footer-icons2 img {
+#inline-icon1 img,
+#inline-icon2 img {
   margin-right: 5px;
 }
 
@@ -295,8 +314,9 @@ hr {
   margin-bottom: 10px;
 }
 
-.footer-icons2 {
+#inline-icon2 {
   color: #64a3c6;
+  align-items: center;
 }
 .footer-icons li::first-letter {
   text-transform: uppercase;
@@ -313,14 +333,20 @@ hr {
 }
 
 #footer-2ndlist {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
   margin-bottom: 0px;
 }
 .section-2 {
-  padding: 10px;
+  padding: 20px;
 }
 
 .section-6 {
+  flex-wrap: wrap;
   text-align: center;
+  background-color: white;
+  padding: 20px;
 }
 
 #section6-buttons {
@@ -330,6 +356,78 @@ hr {
   align-items: center;
 }
 
+#section6-buttons button {
+  margin-bottom: 10px;
+  height: 50px;
+  width: 100%;
+  text-transform: uppercase;
+  color: white;
+  background-color: #540b51;
+  border-radius: 3px;
+  border: 2px solid #540b51;
+  font-weight: bolder;
+}
+
+#sales-button {
+  background-color: white !important;
+  color: #540b51 !important;
+  border: 1px solid #540b51;
+}
+
+.section-6 span {
+  font-size: 30px;
+  color: #540b51;
+  font-weight: bold;
+}
+#text-section6 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.section-6 p {
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 0px;
+
+  padding-right: 30%;
+  padding-left: 30%;
+}
+
+.section-6 li {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+#third-li {
+  margin-bottom: 0px;
+}
+
 small {
   font-size: xx-small;
+}
+
+a {
+  color: #2e71a6;
+}
+
+.section-7 {
+  text-align: center;
+  background-color: #540b51;
+  color: white;
+  height: 230px;
+  padding: 20px;
+}
+
+#section7-buttons button {
+  margin-bottom: 10px;
+  height: 50px;
+  width: 100%;
+  text-transform: uppercase;
+  color: white;
+  background-color: #540b51;
+  border-radius: 3px;
+  border: 2px solid white;
+  font-weight: bolder;
 }
