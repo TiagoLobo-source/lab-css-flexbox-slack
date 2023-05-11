@@ -44,7 +44,7 @@ h2 {
   flex-flow: wrap row;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 0.5px solid grey;
+  border-bottom: 0.5px solid purple;
   width: 100%;
 }
 .list-nav {
@@ -723,7 +723,7 @@ a {
   .nav-div .flex-item-2 {
     justify-content: space-between;
     column-gap: 20px;
-    border-bottom: 0.5px solid grey;
+    border-bottom: 0.5px solid purple;
     height: 13vh;
   }
   .flex-item-2 a {
