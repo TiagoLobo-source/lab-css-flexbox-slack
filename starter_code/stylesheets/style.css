@@ -298,7 +298,10 @@ ul {
 hr {
   border-style: none;
 }
-
+.inline-icons{
+    display: flex;
+    align-items: center;
+}
 #inline-icon1 {
   display: inline;
   margin-bottom: 20px;
@@ -674,7 +677,7 @@ a {
   }
 
   #text-google {
-    width: 170px;
+    width: 200px;
   }
 
   #logo-google {
